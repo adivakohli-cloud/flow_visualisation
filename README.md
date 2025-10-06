@@ -78,4 +78,5 @@ SymPy
 
 Author: 
 Adiva Kohli
+
 A Python-based exploration project on flow visualisation concepts for computational fluid mechanics.
