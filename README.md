@@ -23,6 +23,8 @@ Uniform Flow – Constant velocity field.
 Source Flow – Radial flow outward from a point.
 Doublet Flow – Flow resembling a combination of source and sink.
 Custom Flow Input — Define your own u(x, y) and v(x, y) using Python/numpy syntax.
+The code is robust enough to handle discontinuities in custom functions entered by the user for u(x,y) and
+v(x,y), avoiding runtime overheads by making appropriate computational approximations at the concerned points.
 
 Visualizations:
 Streamlines (plot_streamlines())
@@ -80,3 +82,4 @@ Author:
 Adiva Kohli
 
 A Python-based exploration project on flow visualisation concepts for computational fluid mechanics.
+
